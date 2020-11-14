@@ -12,7 +12,7 @@ date: 2020-11-14 14:30:00
 
 ---
 
-<img src="https://cdn.jsdelivr.net/gh/javahub-yuan/forBlogImages@master/img/20201114210319.png" style="zoom:96%;" />
+![](https://cdn.jsdelivr.net/gh/javahub-yuan/forBlogImages@master/img/20201114210852.png)
 
 <!--more-->
 
