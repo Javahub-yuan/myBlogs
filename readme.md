@@ -32,6 +32,5 @@
 
 1. ### ["法外狂徒 - 张三 "系列](http://www.yuanwenkai.com/categories/%E6%B3%95%E5%A4%96%E7%8B%82%E5%BE%92-%E5%BC%A0%E4%B8%89/)
 
-   恶人是我，我是恶人，鄙人张麻子。![img](https://gsp0.baidu.com/5aAHeD3nKhI2p27j8IqW0jdnxx1xbK/tb/editor/images/client/image_emoticon6.png)
-
-   - ...
+   - [张三日记](http://www.yuanwenkai.com/2020/10/24/%E5%BC%A0%E4%B8%89%E6%97%A5%E8%AE%B0/)
+- [张三日记 - 什么情况下大熊猫可以被烤着吃](http://www.yuanwenkai.com/2020/10/24/%E5%BC%A0%E4%B8%89%E6%97%A5%E8%AE%B0%20-%20%E4%BB%80%E4%B9%88%E6%83%85%E5%86%B5%E4%B8%8B%E5%A4%A7%E7%86%8A%E7%8C%AB%E5%8F%AF%E4%BB%A5%E8%A2%AB%E7%83%A4%E7%9D%80%E5%90%83/)
