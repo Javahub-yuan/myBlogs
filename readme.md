@@ -26,7 +26,8 @@
    - [Java基础（三） - 继承](http://www.yuanwenkai.com/2020/11/14/Java%E5%9F%BA%E7%A1%80%EF%BC%88%E4%B8%89%EF%BC%89%20-%20%E7%BB%A7%E6%89%BF/)
    - [Java基础（四） - 接口](http://www.yuanwenkai.com/2020/11/14/Java%E5%9F%BA%E7%A1%80%EF%BC%88%E5%9B%9B%EF%BC%89%20-%20%E6%8E%A5%E5%8F%A3/)
    - [Java基础（五） - 内部类](http://www.yuanwenkai.com/2020/11/14/Java%E5%9F%BA%E7%A1%80%EF%BC%88%E4%BA%94%EF%BC%89%20-%20%E5%86%85%E9%83%A8%E7%B1%BB/)
-   - 
+   - [Java基础（六） - 异常](http://www.yuanwenkai.com/2020/11/15/Java%E5%9F%BA%E7%A1%80%EF%BC%88%E5%85%AD%EF%BC%89%20-%20%E5%BC%82%E5%B8%B8/)
+   - ...
 
 ## 武林绝学
 
@@ -34,3 +35,4 @@
 
    - [张三日记](http://www.yuanwenkai.com/2020/10/24/%E5%BC%A0%E4%B8%89%E6%97%A5%E8%AE%B0/)
 - [张三日记 - 什么情况下大熊猫可以被烤着吃](http://www.yuanwenkai.com/2020/10/24/%E5%BC%A0%E4%B8%89%E6%97%A5%E8%AE%B0%20-%20%E4%BB%80%E4%B9%88%E6%83%85%E5%86%B5%E4%B8%8B%E5%A4%A7%E7%86%8A%E7%8C%AB%E5%8F%AF%E4%BB%A5%E8%A2%AB%E7%83%A4%E7%9D%80%E5%90%83/)
+   - ...
