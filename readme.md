@@ -37,6 +37,6 @@
 
    - [张三日记](http://www.yuanwenkai.com/2020/10/24/%E5%BC%A0%E4%B8%89%E6%97%A5%E8%AE%B0/)
    
-   - [张三日记 - 什么情况下大熊猫可以被烤着吃](http://www.yuanwenkai.com/2020/10/24/%E5%BC%A0%E4%B8%89%E6%97%A5%E8%AE%B0%20-%20%E4%BB%80%E4%B9%88%E6%83%85%E5%86%B5%E4%B8%8B%E5%A4%A7%E7%86%8A%E7%8C%AB%E5%8F%AF%E4%BB%A5%E8%A2%AB%E7%83%A4%E7%9D%80%E5%90%83/)
+   - [张三日记 - 大熊猫听了直呼内行](http://www.yuanwenkai.com/2020/10/24/%E5%BC%A0%E4%B8%89%E6%97%A5%E8%AE%B0%20-%20%E5%A4%A7%E7%86%8A%E7%8C%AB%E5%90%AC%E4%BA%86%E7%9B%B4%E5%91%BC%E5%86%85%E8%A1%8C/)
    
    - ...
