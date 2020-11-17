@@ -27,6 +27,8 @@
    - [Java基础（四） - 接口](http://www.yuanwenkai.com/2020/11/14/Java%E5%9F%BA%E7%A1%80%EF%BC%88%E5%9B%9B%EF%BC%89%20-%20%E6%8E%A5%E5%8F%A3/)
    - [Java基础（五） - 内部类](http://www.yuanwenkai.com/2020/11/14/Java%E5%9F%BA%E7%A1%80%EF%BC%88%E4%BA%94%EF%BC%89%20-%20%E5%86%85%E9%83%A8%E7%B1%BB/)
    - [Java基础（六） - 异常](http://www.yuanwenkai.com/2020/11/15/Java%E5%9F%BA%E7%A1%80%EF%BC%88%E5%85%AD%EF%BC%89%20-%20%E5%BC%82%E5%B8%B8/)
+   - [Java基础（七） - 泛型程序设计](http://www.yuanwenkai.com/2020/11/16/Java%E5%9F%BA%E7%A1%80%EF%BC%88%E4%B8%83%EF%BC%89%20-%20%E6%B3%9B%E5%9E%8B%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/)
+   - [Java基础（八） - 克隆](http://www.yuanwenkai.com/2020/11/17/Java%E5%9F%BA%E7%A1%80%EF%BC%88%E5%85%AB%EF%BC%89%20-%20%E5%85%8B%E9%9A%86/)
    - ...
 
 ## 武林绝学
@@ -34,5 +36,7 @@
 1. ### ["法外狂徒 - 张三 "系列](http://www.yuanwenkai.com/categories/%E6%B3%95%E5%A4%96%E7%8B%82%E5%BE%92-%E5%BC%A0%E4%B8%89/)
 
    - [张三日记](http://www.yuanwenkai.com/2020/10/24/%E5%BC%A0%E4%B8%89%E6%97%A5%E8%AE%B0/)
-- [张三日记 - 什么情况下大熊猫可以被烤着吃](http://www.yuanwenkai.com/2020/10/24/%E5%BC%A0%E4%B8%89%E6%97%A5%E8%AE%B0%20-%20%E4%BB%80%E4%B9%88%E6%83%85%E5%86%B5%E4%B8%8B%E5%A4%A7%E7%86%8A%E7%8C%AB%E5%8F%AF%E4%BB%A5%E8%A2%AB%E7%83%A4%E7%9D%80%E5%90%83/)
+   
+   - [张三日记 - 什么情况下大熊猫可以被烤着吃](http://www.yuanwenkai.com/2020/10/24/%E5%BC%A0%E4%B8%89%E6%97%A5%E8%AE%B0%20-%20%E4%BB%80%E4%B9%88%E6%83%85%E5%86%B5%E4%B8%8B%E5%A4%A7%E7%86%8A%E7%8C%AB%E5%8F%AF%E4%BB%A5%E8%A2%AB%E7%83%A4%E7%9D%80%E5%90%83/)
+   
    - ...
