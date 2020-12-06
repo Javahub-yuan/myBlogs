@@ -30,13 +30,18 @@
    - [Java基础（七） - 泛型程序设计](http://www.yuanwenkai.com/2020/11/16/Java%E5%9F%BA%E7%A1%80%EF%BC%88%E4%B8%83%EF%BC%89%20-%20%E6%B3%9B%E5%9E%8B%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/)
    - [Java基础（八） - 克隆](http://www.yuanwenkai.com/2020/11/17/Java%E5%9F%BA%E7%A1%80%EF%BC%88%E5%85%AB%EF%BC%89%20-%20%E5%85%8B%E9%9A%86/)
    - ...
+   
+4. ### 并发
+
+   参考书籍《Java并发编程之美》，代码实例：https://github.com/Javahub-yuan/concurrent-learning
+
+   - ...
 
 ## 武林绝学
 
 1. ### ["法外狂徒 - 张三 "系列](http://www.yuanwenkai.com/categories/%E6%B3%95%E5%A4%96%E7%8B%82%E5%BE%92-%E5%BC%A0%E4%B8%89/)
 
    - [张三日记](http://www.yuanwenkai.com/2020/10/24/%E5%BC%A0%E4%B8%89%E6%97%A5%E8%AE%B0/)
-   
    - [张三日记 - 大熊猫听了直呼内行](http://www.yuanwenkai.com/2020/10/24/%E5%BC%A0%E4%B8%89%E6%97%A5%E8%AE%B0%20-%20%E5%A4%A7%E7%86%8A%E7%8C%AB%E5%90%AC%E4%BA%86%E7%9B%B4%E5%91%BC%E5%86%85%E8%A1%8C/)
-   
+   - [张三日记 - 名场面之老婆好猛啊](http://www.yuanwenkai.com/2020/10/24/%E5%BC%A0%E4%B8%89%E6%97%A5%E8%AE%B0%20-%20%E5%90%8D%E5%9C%BA%E9%9D%A2%E4%B9%8B%E8%80%81%E5%A9%86%E5%A5%BD%E7%8C%9B%E5%95%8A/)
    - ...
