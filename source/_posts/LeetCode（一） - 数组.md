@@ -9,17 +9,18 @@ date: 2020-12-8 20:30:00
 
 ---
 
-
+永远不要把自己的快乐和希望寄托在别人身上，最终靠得住的,还是自己
 
 <!--more-->
 
-永远不要把自己的快乐和希望寄托在别人身上，最终靠得住的,还是自己
+
 
 # LeetCode（一） - 数组
 
-|                             题目                             |  思路  |
-| :----------------------------------------------------------: | :----: |
-| [88. 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) | 双指针 |
+|                             题目                             |  思路  |     日期      |
+| :----------------------------------------------------------: | :----: | :-----------: |
+| [88. 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) | 双指针 | 2020年12月8日 |
+|    [66. 加一](https://leetcode-cn.com/problems/plus-one/)    |  数组  | 2020年12月9日 |
 
 ## 1、[88. 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)
 
@@ -73,4 +74,34 @@ class Solution {
 
 - **时间复杂度** : `O(n + m)`。
 - **空间复杂度** : `O(1)`。
+
+## [66. 加一](https://leetcode-cn.com/problems/plus-one/)
+
+### 题目描述
+
+![](https://cdn.jsdelivr.net/gh/javahub-yuan/forBlogImages@master/img/20201209233952.png)
+
+### 解题思路
+
+**注意点：**
+
+- 从后往前加一，如果该位<10，则直接返回
+- 如果遍历完仍没有返回，说明原数组中每位数字都变为0，例如原数组为999，则直接新建一个数组，首位置1即可
+
+```java
+class Solution {
+    public int[] plusOne(int[] digits) {
+        int len = digits.length;
+        for(int i = len - 1; i >= 0; i--) {
+            digits[i]++;
+            digits[i] %= 10;
+            if(digits[i]!=0)
+                return digits;
+        }
+        digits = new int[len + 1];
+        digits[0] = 1;
+        return digits;
+    }
+}
+```
 
