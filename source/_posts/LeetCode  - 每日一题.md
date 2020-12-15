@@ -16,13 +16,13 @@ date: 2020-12-14 20:30:00
 
 # LeetCode - 每日一题
 
-|      日期      |            题目             |
-| :------------: | :-------------------------: |
-| 2020年12月14日 | [49. 字母异位词分组](#jump) |
-|                |                             |
-|                |                             |
+|      日期      |            题目             |   标签   |
+| :------------: | :-------------------------: | :------: |
+| 2020年12月14日 | [49. 字母异位词分组](#jump) |          |
+| 2020年12月15日 |     738. 单调递增的数字     | 贪心算法 |
+|                |                             |          |
 
-## [49. 字母异位词分组](#jump)
+## [1. 字母异位词分组](#jump)
 
 ![](https://cdn.jsdelivr.net/gh/javahub-yuan/forBlogImages@master/img/20201214223301.png)
 
@@ -148,3 +148,51 @@ class Solution {
 时间复杂度：O(n(k+∣Σ∣))，其中 n 是 strs 中的字符串的数量，k 是 strs 中的字符串的的最大长度，Σ 是字符集，在本题中字符集为所有小写字母，∣Σ∣=26。需要遍历 n 个字符串，对于每个字符串，需要 O(k) 的时间计算每个字母出现的次数，O(∣Σ∣) 的时间生成哈希表的键，以及 O(1) 的时间更新哈希表，因此总时间复杂度是 O(n(k+∣Σ∣))。
 
 空间复杂度：O(n(k+∣Σ∣))，其中 n 是 strs 中的字符串的数量，k 是 strs 中的字符串的最大长度，Σ 是字符集，在本题中字符集为所有小写字母，∣Σ∣=26。需要用哈希表存储全部字符串，而记录每个字符串中每个字母出现次数的数组需要的空间为 O(∣Σ∣)，在渐进意义下小于 O(n(k+∣Σ∣))，可以忽略不计。
+
+## 2.单调递增的数字
+
+![](https://cdn.jsdelivr.net/gh/javahub-yuan/forBlogImages@master/img/20201215233829.png)
+
+题解
+
+```java
+class Solution {
+    public int monotoneIncreasingDigits(int N) {
+        char[] strN = Integer.toString(N).toCharArray();
+        int i = 1;
+        while (i < strN.length && strN[i - 1] <= strN[i]) {
+            i += 1;
+        }
+        if (i < strN.length) {
+            while (i > 0 && strN[i - 1] > strN[i]) {
+                strN[i - 1] -= 1;
+                i -= 1;
+            }
+            for (i += 1; i < strN.length; ++i) {
+                strN[i] = '9';
+            }
+        }
+        return Integer.parseInt(new String(strN));
+    }
+}
+
+作者：LeetCode-Solution
+链接：https://leetcode-cn.com/problems/monotone-increasing-digits/solution/dan-diao-di-zeng-de-shu-zi-by-leetcode-s-5908/
+来源：力扣（LeetCode）
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+```
+
+高人竟在我身边(我他么直接人傻掉了)
+
+```java
+public int monotoneIncreasingDigits(int N) {
+    for (int i = N, j = 9, k = 1; i > 0; i /= 10, k *= 10)
+        if (j < (j = i % 10))// 如果后一位比前一位小
+            // 以332为例，第1次走到这一步的时候 i=33,k=10, 329进入递归
+            // 第2次走到这一步的时候 i=3,k=100, 299进入递归
+            return monotoneIncreasingDigits(i * k - 1);
+    // 299递归出口
+    return N;
+}
+```
+
