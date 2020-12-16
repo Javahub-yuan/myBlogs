@@ -20,7 +20,7 @@ date: 2020-12-14 20:30:00
 | :------------: | :-------------------------: | :------: |
 | 2020年12月14日 | [49. 字母异位词分组](#jump) |          |
 | 2020年12月15日 |     738. 单调递增的数字     | 贪心算法 |
-|                |                             |          |
+| 2020年12月16日 |        290. 单词规律        |  哈希表  |
 
 ## [1. 字母异位词分组](#jump)
 
@@ -194,5 +194,81 @@ public int monotoneIncreasingDigits(int N) {
     // 299递归出口
     return N;
 }
+```
+
+## 3.单词规律
+
+![](https://cdn.jsdelivr.net/gh/javahub-yuan/forBlogImages@master/img/20201216230208.png)
+
+题解
+
+```java
+public boolean wordPattern(String pattern, String s) {
+    Map<Character, String> map = new HashMap<>();
+    List<String> list = new ArrayList<>();
+
+    String[] sArray = s.split(" ");
+    if(pattern.length() != sArray.length) return false;
+
+    for (int i = 0; i < sArray.length; i++) {
+        char c = pattern.charAt(i);
+        if(map.containsKey(c)) {
+            if(!map.get(c).equals(sArray[i])) {
+                return false;
+            }
+        } else {
+            if(list.contains(sArray[i])) {
+                return false;
+            }
+            map.put(c, sArray[i]);
+            list.add(sArray[i]);
+        }
+    }
+    return true;
+
+}
+```
+
+官方
+
+```java
+class Solution {
+    public boolean wordPattern(String pattern, String str) {
+        Map<String, Character> str2ch = new HashMap<String, Character>();
+        Map<Character, String> ch2str = new HashMap<Character, String>();
+        int m = str.length();
+        int i = 0;
+        for (int p = 0; p < pattern.length(); ++p) {
+            char ch = pattern.charAt(p);
+            if (i >= m) {
+                return false;
+            }
+            int j = i;
+            while (j < m && str.charAt(j) != ' ') {
+                j++;
+            }
+            String tmp = str.substring(i, j);
+            if (str2ch.containsKey(tmp) && str2ch.get(tmp) != ch) {
+                return false;
+            }
+            if (ch2str.containsKey(ch) && !tmp.equals(ch2str.get(ch))) {
+                return false;
+            }
+            str2ch.put(tmp, ch);
+            ch2str.put(ch, tmp);
+            i = j + 1;
+        }
+        return i >= m;
+    }
+}
+
+//时间复杂度：O(n+m)，其中 nn 为 pattern 的长度，m 为 str 的长度。插入和查询哈希表的均摊时间复杂度均为 O(n+m)。每一个字符至多只被遍历一次。
+
+//空间复杂度：O(n+m)，其中 n 为 pattern 的长度，m 为 str 的长度。最坏情况下，我们需要存储 pattern 中的每一个字符和 str 中的每一个字符串。
+
+作者：LeetCode-Solution
+链接：https://leetcode-cn.com/problems/word-pattern/solution/dan-ci-gui-lu-by-leetcode-solution-6vqv/
+来源：力扣（LeetCode）
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 ```
 
