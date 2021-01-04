@@ -35,6 +35,12 @@
 
    参考书籍《Java并发编程之美》，代码实例：https://github.com/Javahub-yuan/concurrent-learning
 
+   - [Java并发编程之美（一） - 并发基础](http://www.yuanwenkai.com/2020/12/22/Java并发编程之美（一） - 并发基础/)
+   - ...
+   
+5. ### Maven
+
+   - [Maven使用profile配置不同环境](http://www.yuanwenkai.com/2021/01/04/Maven使用profile配置不同环境/)
    - ...
 
 ## 武林绝学
